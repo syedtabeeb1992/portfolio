@@ -1,0 +1,77 @@
+.form-wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.from-inner {
+  flex: 1;
+}
+
+.form-inner-right {
+  flex: 1;
+  position: relative;
+}
+
+.name-form {
+  width: 47%;
+  margin-left: 2.6%;
+}
+
+.subject-form {
+  width: 96.9%;
+  margin-top: 20px;
+  margin-left: 2.6%;
+}
+
+.message-form {
+  width: 96.9%;
+  margin-top: 20px;
+  margin-left: 2.6%;
+}
+
+.from-inner input {
+  height: 32px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: none;
+}
+.from-inner textarea {
+  height: 100px;
+  border-radius: 4px;
+}
+
+.from-inner input:focus {
+  background-color: yellow;
+
+}
+/* .from-innerinput:active {
+  background-color: yellow;
+
+} */
+.msg-btn {
+  float: right;
+}
+
+.msg-btn {
+  float: right;
+  background: #ffc120;
+  border: none;
+  color: #ffffff;
+  padding: 10px 33px;
+  font-size: 18px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+
+.msg-btn:hover{
+    background: #fab403;
+}
+
+/* .form-inner-right div:first-child   {
+    position: relative!important;
+} */

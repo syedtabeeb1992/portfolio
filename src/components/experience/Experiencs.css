@@ -1,0 +1,106 @@
+.mid-exp {
+  position: relative;
+}
+.lio {
+  display: flex;
+  gap: 100px;
+}
+
+.firzero {
+  margin-top: 0 !important;
+}
+.leftone {
+  flex: 1 1;
+  /* background: red; */
+  margin-top: 98px;
+  height: 150px;
+}
+
+.lineone:first-child {
+  margin-top: 0px;
+}
+
+.rightone {
+  flex: 1 1;
+
+  margin-top: 98px;
+  min-height: 100px;
+}
+
+.fl-ri {
+  float: right;
+}
+.yellow-exp-box {
+  padding: 13px;
+  width: 478px;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 18px;
+  gap: 18px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.lineimg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.exp-container {
+  min-height: 1000px;
+}
+
+.lower-exp-box {
+  display: flex;
+}
+
+.yellow-exp-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+
+  /* or 192% */
+
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+.yellow-exp-deets {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  flex: 1;
+  /* or 278% */
+
+  letter-spacing: -0.04em;
+
+  color: #ffffff;
+}
+
+@media (min-width: 300px) and (max-width: 1125px) {
+  .lineimg {
+    display: none;
+  }
+  .fl-ri {
+    float: none;
+  }
+
+  .leftone {
+    display: none;
+  }
+
+  .yellow-exp-box {
+    margin: auto;
+    margin-top: 40px;
+    width: 100%!important;
+  }
+}

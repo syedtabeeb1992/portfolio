@@ -1,0 +1,112 @@
+.img-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.hero-title {
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+}
+
+.hero-title h1 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: center;
+}
+.img-wrapper img {
+  width: 300px;
+}
+
+/* .hero-title:before {
+  content: "<p>";
+  font-family: "La Belle Aurore", cursive;
+  color: #51515269;
+  font-size: 18px;
+  position: absolute;
+  margin-top: -2rem;
+  left: -2rem;
+} */
+/* 
+.hero-title h1:after {
+  content: "<h1/>";
+  font-family: "La Belle Aurore", cursive;
+  color: #51515269;
+  font-size: 11px;
+  position: absolute;
+  margin-top: 1.1rem;
+  margin-left: 1rem;
+}
+.hero-title h1:before {
+  content: "<h1>";
+  font-family: "La Belle Aurore", cursive;
+  color: #51515269;
+  font-size: 1.8rem;
+  position: absolute;
+  margin-top: 0rem;
+  left: 36%;
+  font-size: 11px;
+}
+.hero-title p:after {
+    content: "<p/>";
+    font-family: "La Belle Aurore", cursive;
+    color: #51515269;
+    font-size: 9px;
+    position: absolute;
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+}
+  .hero-title p:before {
+    content: "<p>";
+    font-family: "La Belle Aurore", cursive;
+    color: #51515269;
+    font-size: 1.8rem;
+    position: absolute;
+    margin-top: -0.1rem;
+    left: 37%;
+    font-size: 9px;
+} */
+
+.socioicons {
+    display: flex;
+    gap: 28px;
+    font-size: 30px;
+}
+.icons-socio a{
+    color: black;
+}
+
+.icons-socio a:hover{
+    color: #FFB800;
+}
+
+
+.bottomFrame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+  
+.bottomFrame img {
+    margin-left: 0%;
+    width: 30%;
+}
+
+
+
+
+
+@media (min-width:300px) and (max-width:1088px) {
+  .bottomFrame img {
+    margin-left: 0%;
+    width: 350px!important;
+  }
+} 

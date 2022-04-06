@@ -1,0 +1,52 @@
+.inner-protfolio-wrap {
+    display: flex;
+    /* gap: 30px; */
+    flex-wrap: wrap;    
+}
+
+.portfolio{
+    width: 25%;
+    flex-wrap: wrap;
+    margin-top: 3   0px;
+}
+
+.folio-m {
+    border: 1px solid #FFB800;
+    margin: auto;
+    width: 90%;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.finkara{
+    background-color: rebeccapurple;
+    background-image: url('../../assests/images/finkara.png');
+    background-size: 100% 100%;;
+    position: relative;
+}
+.project-title {
+    background: rgb(0 0 0 / 65%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    transition:  letter-spacing 1s;
+}
+
+
+.finkara:hover .project-title {
+    transition:  letter-spacing 1s;
+    letter-spacing: 15px;
+}

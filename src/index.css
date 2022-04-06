@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;800&family=Montserrat:ital,wght@0,400;0,500;0,600;1,300&display=swap');
+
+
+.box-shadow-beeb {
+
+  border-bottom: 1px solid grey;
+  
+  padding: 15px 0px;
+}
+.flex{
+  display: flex;
+}
+.primary-color {
+  color: #FFB800;
+}
+.primary-bg {
+  background: #FFB800;;
+}
+
+.title-section {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 29px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+
+
+
+.container {
+  margin: auto;
+  width: 90%;
+}
