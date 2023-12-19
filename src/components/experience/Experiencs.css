@@ -1,11 +1,23 @@
+.wrapper-work-exp{
+  display: flex;
+  grid-gap: 30px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 13px -6px black;
+  width: 500px;
+}
+.workdeets{
+
+}
 .mid-exp {
   position: relative;
 }
 .lio {
   display: flex;
-  gap: 100px;
+  gap: 30px;
+  flex-wrap: wrap;
 }
-
 .firzero {
   margin-top: 0 !important;
 }
